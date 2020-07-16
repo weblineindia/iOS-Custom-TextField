@@ -9,14 +9,16 @@
 import UIKit
 
 let strAlertEnterUserName = "Enter user name"
-let strAlertEnterPassword = "strAlertEnterPassword"
-let strAlertEnterEmail = "strAlertEnterEmail"
+let strAlertEnterPassword = "Enter password"
+let strAlertEnterEmail = "Enter email id"
 let strAlertEnterValidEmail = "Enter valid email id"
 let strAlertEnterPhone = "Enter phone number"
 let strAlertSubmit = "Data submited"
 
 class ViewController: UIViewController {
     
+    
+    // WLITextField Properties
     @IBOutlet weak var txtUserName: WLITextField!
     @IBOutlet weak var txtPassword: WLITextField!
     @IBOutlet weak var txtEmail: WLITextField!
@@ -38,7 +40,6 @@ class ViewController: UIViewController {
         
         //set specify character allow into textField
         txtPhone.allowCharacterOnly = "+0123456789"
-        
         
         //Hide keybord when tap on view
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyBord))
@@ -68,7 +69,7 @@ class ViewController: UIViewController {
             txtEmail.text = ""
             txtPhone.text = ""
             self.ShowAlert(alertmsg: strAlertSubmit)
-        }        
+        }
     }
     
     // MARK: - Show alert controller

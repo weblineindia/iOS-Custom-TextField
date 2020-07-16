@@ -1,4 +1,6 @@
-The project provides fully customisable WLITextField in iOS swift. it can be reusable in other project and build upon programatic UI.
+# iOS Custom TextField
+
+A resuable custom TextField component in iOS Swift. It is built upon programmatic UI and fully customizable.
 
 
 ## Table of contents
@@ -19,43 +21,40 @@ The project provides fully customisable WLITextField in iOS swift. it can be reu
 
 ## iOS Support
 
-Support Version iOS 12, iOS 13
+Versions iOS 12, iOS 13
 
-We have tested our program in above versions, however you can use it in other versions as well
+We have tested our program in above versions, however you can use it in other versions as well.
 
 ------
 
 ## Demo
-[![](CustomTextField.gif)](https://github.com/weblineindia/iOS-Custom-TextField/master/blob/master/CustomTextField.gif)
+[![](CustomTextField.gif)](http://git-ar.webline.local/iOS/IOS_Custom_Textfield/master/blob/master/CustomTextField.gif)
 
 ------
 
 ## Features
-* Customisable UITextField with more properties.
-* Common class can be used for different textfields based on Type.
 
-e.g. 
-* Email TextField
-* Password TextField
-* Phone TextField
-
+- Customisable UITextField with more properties.
+- Common class can be used for different textfields based on Type. For e.g. Email TextField, Password TextField, Phone TextField
 
 ------
 
 ## Getting started
+
 Download this sample project and import WLITextField file in your project.
 
 ------
 
 ## Usage
-Process setup is described below to integrate in your sample project.
 
-* Go to identity inspector and set  WLITextField  as your textfield class.
+Setup process is described below to integrate in project.
+
+* Go to identity inspector and set WLITextField as your textfield class.
 * Set your property using Attrubutes inspector in UITextField 
 
-[![](customProperty.png)](https://github.com/weblineindia/iOS-Custom-TextField/master/blob/master/customProperty.png)
+[![](customProperty.png)](http://git-ar.webline.local/iOS/IOS_Custom_Textfield/master/blob/master/customProperty.png)
 
-Create  IBOutlet of textFieldView and set below propetise base on your requirements
+* Create IBOutlet of textFieldView and set below propetise base on your requirements
 
 For example    
     
@@ -112,7 +111,7 @@ Set delegate methods to get call back in your project controller where WLITextfi
 ------
 
 ## Need Help? 
-We also provide a free, basic support for all users who want to use this Custom Reusable TextField demo in project. In case you want to customize this Custom TextField to have input to suit your development needs, then feel free to contact our [iOS
+We also provide a free, basic support for all users who want to use this Custom Reusable TextField demo in project. In case you want to customize this Custom TextField to suit your development needs, then feel free to contact our [iOS
 developers](https://www.weblineindia.com/hire-ios-app-developers.html).
 
  ------
@@ -126,10 +125,8 @@ developers](https://www.weblineindia.com/hire-ios-app-developers.html).
 Detailed changes for each release are documented in [CHANGELOG](./CHANGELOG).
 
 ## License
-
- [MIT](LICENSE)
-
- [mit]: https://github.com/weblineindia/iOS-Custom-TextField/blob/master/LICENSE
+[MIT](LICENSE)
+[https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE]: https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE
 
 ## Keywords
 
