@@ -126,8 +126,10 @@ developers](https://www.weblineindia.com/hire-ios-app-developers.html).
 Detailed changes for each release are documented in [CHANGELOG](./CHANGELOG).
 
 ## License
-[MIT](LICENSE)
-[https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE]: https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE
+
+ [MIT](LICENSE)
+
+ [mit]: https://github.com/weblineindia/iOS-Custom-TextField/blob/master/LICENSE
 
 ## Keywords
 
